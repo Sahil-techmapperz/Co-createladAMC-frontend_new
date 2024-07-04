@@ -1,0 +1,133 @@
+.withdralTable_container {
+    /* border: 1px solid; */
+    margin-right: 16px;
+}
+
+.myWithdrawl_body {
+    width: 100%;
+
+}
+
+.hSetting {
+    margin-top: 18px;
+}
+
+.MyWithdrawls_main_container {
+    display: flex;
+    gap: 16px;
+}
+
+.MyWithdrawls_main_container p {
+    font-size: 14px;
+}
+
+.MyWithdrawls_main_container th {
+    font-size: 14px;
+}
+
+
+.myAccountSearch {
+    padding: 0px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: static;
+    height: 50px;
+    border-radius: 5px;
+    top: 2px;
+}
+
+.Navbarleft {
+    display: flex;
+    gap: 10px;
+}
+
+.navHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Navbarright {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.MyWithdrawls_breadcramp {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.MyWithdrawls_bread_child {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.MyWithdrawls_bread_child p {
+    padding: 5px;
+}
+
+.mywithdral_payment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mywithdral_payment_range {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+        max-width: 100%;
+        height: 300px;
+        /* Adjust the height as needed */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        font-size: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+}

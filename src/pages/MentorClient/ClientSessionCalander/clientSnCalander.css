@@ -1,0 +1,52 @@
+.calender_body {
+    display: flex;
+    width: 100%;
+}
+
+
+.calender_main {
+    width: 100%;
+}
+
+.calender_schedule {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: static;
+    height: 50px;
+    border-radius: 5px;
+    top:2px;
+}
+
+.Navbarleft{
+    display: flex;
+    gap: 10px;
+}
+
+.Navbarright{
+    display: flex;
+    gap: 10px;
+}
+.fc .fc-scrollgrid-liquid{
+    width: 97%;
+}
+
+@media (max-width: 768px) {
+
+    .calender_schedule{
+        font-size: 20px;
+    }
+
+}
+
+
+

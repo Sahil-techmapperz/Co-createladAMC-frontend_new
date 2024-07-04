@@ -1,0 +1,73 @@
+
+
+.chat-container {
+    display: flex;
+    height: 100%; 
+    width: 100%; 
+  }
+  
+  .user-list {
+    width: 20%;
+    height: 92vh;
+    flex: 1;
+    overflow-y: auto; /* Allows scrolling if many users */
+    border-right: 2px solid #ccc; /* Separator between user list and chat */
+    padding: 10px;
+  }
+  
+  .user-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #eee; /* Separates users visually */
+  }
+  
+  .chat-interface {
+    flex: 3; /* Gives more space to the chat interface */
+    padding: 20px;
+  }
+
+  
+  /* Add to src/components/HomePage.css */
+
+.messages {
+    margin-bottom: 20px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+
+.no-user-selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92vh; 
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: #666;
+  margin:0 2rem; 
+}
+
+
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

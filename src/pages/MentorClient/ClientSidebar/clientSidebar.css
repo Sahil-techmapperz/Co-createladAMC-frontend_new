@@ -1,0 +1,107 @@
+.admin_side_part_one p{
+    font-size: 16px !important;
+    margin-top: 10px;
+}
+
+.websiteLogo {
+    width: 220px;
+    margin-top: 3px;
+}
+
+.sideBar_main li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin-top: 12px;
+}
+
+.Profile_devider {
+    height: 1px;
+    background: 1px white;
+}
+
+.sideBar_main>li>img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.admin_side_para a{
+    text-decoration: none;
+    color: white;
+}
+
+.sideBar_main>li>p {
+    padding-top: 7px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.admin_profile {
+    display: inline-flex;
+    gap: 13px;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+.admin_profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.admin_profile p {
+    margin-top: 10px;
+}
+
+
+.dropdownIcon {
+    margin-top: 14px;
+}
+
+
+
+.admin_side_para {
+    margin-left: 1%;
+    margin-top: 20px;
+
+    width: 250px;
+    
+    /* justify-content: space-between; */
+    background: linear-gradient(176.83deg, #52E7CF 0.29%, #0096F6 3.41%, #1DB3E8 57.31%, #52E7CF 85.81%) !important;
+    border-radius: 10px;
+
+
+}
+
+.session,
+.group_Session,
+.noticeBoard,
+.my_wallet,
+.myWithdrals,
+.message,
+.session_Calander,
+.admin_dashboard1 {
+    display: flex;
+    gap: 20px;
+}
+
+
+.session,
+.group_Session,
+.noticeBoard,
+.my_wallet,
+.myWithdrals,
+.message,
+.session_Calander,
+.admin_dashboard1 img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+
+
+.session_Calander {}

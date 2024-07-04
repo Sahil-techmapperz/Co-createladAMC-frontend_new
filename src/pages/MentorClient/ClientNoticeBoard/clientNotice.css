@@ -1,0 +1,116 @@
+.notice_board_body {
+    display: flex;
+    gap:16px;
+}
+
+
+   
+    
+
+
+
+.notice_board_left_part {
+
+    /* border: 1px solid red; */
+    /* width:; */
+}
+
+.noticeBoardDate{
+    text-align: end;
+    font-weight: bold;
+}
+.noticeBoardName{
+    text-align: start;
+    font-weight: bold;
+}
+
+.notice_board_right_part {
+
+    /* border: 1px solid red; */
+    text-align: justify;
+    width: 80%;
+    padding:20px;
+    margin-top: 5px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 
+
+
+.notice_board_header_part {
+    margin-right: 10px;
+}
+
+.notice_board_body_main {
+    width: 100%;
+}
+
+
+
+.notice_board_blog1 {
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: space-between;
+}
+
+.notice_board_blog1 img {
+    width: 220px;
+}
+
+.notice_board_right_part img {
+
+}
+
+
+
+.header_blog_details {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.notice_board_blog_cotesion {
+    margin-top: 20px;
+}
+
+
+
+
+.notice_board_blogHeader {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: static;
+    height: 50px;
+    border-radius: 5px;
+    top: 2px;
+}
+
+.Navbarleft {
+    display: flex;
+    gap: 10px;
+}
+
+.Navbarright {
+    display: flex;
+    gap: 10px;
+}
+
+.navHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.myAccountSearch {
+    padding: 0px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+}
+

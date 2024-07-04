@@ -1,0 +1,160 @@
+.Message_chatBodyMain{
+    display: flex;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: static;
+    height: 50px;
+    border-radius: 5px;
+    top: 2px;
+}
+
+.Navbarleft {
+    display: flex;
+    gap: 10px;
+}
+
+.Navbarright {
+    display: flex;
+    gap: 10px;
+}
+
+.navHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.Message_chatBody {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    gap:12px;
+    
+}
+.starIcon{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.Message_chatMainBody {
+    width: 100%;  
+}
+
+.dropIcon {
+    font-size: 40px;
+}
+
+
+
+.Message_chatBody1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+  
+}
+
+.Message_chatBody1 p{
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.Message_chat_left {
+    width: 35%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 24px;
+    padding: 8px;
+}
+
+.Message_chatBody2 {
+    display: flex;
+}
+
+.ProfileDetails {
+    display: flex;
+    background: wheat;
+    padding: 8px;
+    
+}
+
+.Profilemain{
+  margin-left: 5px;  
+}
+
+.ProfileDAT {
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-left: -106px; */
+  
+
+}
+.ProfileDAT p{
+    margin: 0;
+    padding: 0;
+}
+.ProfileDetails img{
+    /* padding: 5px; */
+    height: 40px;
+    width: 40px;
+}
+.Profile1 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 90px;  */
+   
+}
+.Profile1 img{
+    padding: 6px;
+}
+.Message_chat_right {
+    width: 60%;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    margin-top: 18px;
+    padding: 10px;
+}
+.Message_left_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MessageHeader1{
+    display: flex;
+    gap: 20px;
+}
+ .MessageHeader2  {
+
+    /* display: flex;
+    gap:5px; */
+}
+
+
+
+.MessageChatProcess {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+}
+
+.MessageSent{
+    text-align: right;
+}
+
+.ProfileDetails p{
+font-size: 13px;
+}
+
+.myAccountSearch {
+    padding: 0px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+}

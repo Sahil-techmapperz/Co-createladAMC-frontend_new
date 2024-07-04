@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.MessageChat_body {
+    display: flex;
+    gap: 16px;
+}
+.Message_chatBody p{
+    font-size: 14px ;
+}
+
+
+.messageChartVideo3 {
+    width: 130px;
+    height: 40px;
+    background: blue;
+    border-radius: 5px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageChartVideo3 p{
+    margin: 0;
+}
+.messageChartVideo2{
+    gap: 10px;
+}
+.MessageChat_main {
+    width: 100%;
+}
+.messageChartVideo1{
+    gap: 10px;
+}
+.classEdit{
+    font-size: xxx-large;
+    display: flex;
+    align-items: center;
+ 
+    
+}
+
+.messageChartVideo, .messageChartVideo1, .messageChartVideo2, .messageChartVideo3 {
+    display: flex;  
+}
+.messageChartVideo{
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    align-items: center;
+  
+    padding: 0 10px;
+}
+
+
+.messageChartVideo2,
+.messageChartVideo1{
+    justify-content: center;
+    align-items: center;
+}
+
+.messageChartAllSes1{
+    display: flex;
+    gap: 20px;
+    
+}
+.messageChartAllSes1 p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.messageChartAllSes12{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    color: red;
+    justify-content: center;
+    align-items: center;
+
+}
+.messageChartAllSes12 p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    
+}
+.messageChartSession {
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+}
+
+.messageChartSession p{
+    font-size: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.messageChartAllSession {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.messageChartAllSes {
+    display: flex;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.messageChartAllSes13 {
+    display: flex;
+    
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.messageChartAllSes13 p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.messageBody {
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+    
+}
+
+.bookOpen {
+
+}
+
+.lastWeekSection {
+    width: 40%;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+.allSession{
+    width: 60%;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.lastWeekNews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.classNews {
+    display: flex;
+    gap: 5px;
+   
+}
+.classNews p{
+    margin: 0;
+    padding: 0;
+}
+
+.MemberImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.classEdit {
+    width: 40px;
+    height: 40px;
+   
+    border-radius: 50%;
+}
+
+.lastWeekSection1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.messageBody >div{
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.myAccountSearch {
+    padding: 0px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: static;
+    height: 50px;
+    border-radius: 5px;
+    top:2px;
+}
+
+.Navbarleft{
+    display: flex;
+    gap: 10px;
+}
+
+.Navbarright{
+    display: flex;
+    gap: 10px;
+}
+
+.navHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+.isDelete{
+    margin-top: -1px;
+    font-size: 20px !important;
+}
+
+
+
+@media (max-width: 768px) {
+    .messageBody{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MessageChat_main {
+        margin-left: 15px !important;
+    }
+
+    .messageChartAllSes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allSession {
+        width: 100%;
+    }
+
+
+    .lastWeekSection{
+        width: 100%;
+    }
+
+    .messageChartAllSes1{
+        justify-content: space-between;
+    }
+
+    .allSession {
+        width: 95%;
+        
+    }
+
+    .messageChartVideo2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .messageChartVideo1 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .lastWeekSection {
+        width: 95%;
+    }
+
+
+    .messageChartAllSes12,
+    .messageChartAllSes13 {
+        gap: 0px !important;
+    }
+
+
+    .messageChartAllSesED {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+
+   
+}

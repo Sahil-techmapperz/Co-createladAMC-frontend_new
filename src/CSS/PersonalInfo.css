@@ -1,0 +1,173 @@
+.PersonalInfoBody {
+    display: flex;
+    gap: 16px;
+}
+
+.PersonalInfoBody p {
+    font-size: 14px;
+}
+
+.PersonalBreadCramp {
+    display: flex;
+}
+
+.PersonalDivider {
+    /* width: 100px; */
+    height: 1px;
+    border: 1px solid;
+}
+
+
+.PersonalInfoMain {
+    width: 100%;
+}
+
+.PersonalHeader {
+    font-size: 26px !important;
+    font-weight: bold;
+}
+
+.PersonalEdit {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.PersonalBody {
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+
+}
+
+.breckPara {
+    font-size: 14px !important;
+}
+
+.PersonalBodyRight1 {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.bodyRightHeader {
+    font-size: 20px !important;
+    font-weight: bold;
+
+}
+
+.PersonalEdit1 p {
+    margin: 0;
+    padding: 0;
+}
+
+.PersonalBodyLeft {
+    width: 65%;
+    /* border: 1px solid; */
+
+
+}
+
+.PersonalBodyLeft1 {
+    margin: 10px 10px 0 10px;
+}
+
+.PersonalBodyRight {
+    width: 35%;
+    /* border: 1px solid; */
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.personalAdd {
+    margin-top: 23px !important;
+}
+
+
+.myAccountSearch {
+    padding: 0px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: static;
+    height: 50px;
+    border-radius: 5px;
+    top: 2px;
+}
+
+
+.navHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Navbarleft {
+    display: flex;
+    gap: 10px;
+}
+
+.Navbarright {
+    display: flex;
+    gap: 10px;
+}
+
+.PersonalInfoBody {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.PersonalEdit button:hover {
+    background-color: #f0f0f0; /* Example hover effect */
+    cursor: pointer;
+}
+
+.PersonalDivider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .PersonalBody {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .PersonalBodyRight {
+        width: 100%;
+    }
+
+    .PersonalBreadCramp {
+        padding-left: 15px;
+    }
+
+    .PersonalInfoBody p {
+        padding-left: 20px;
+    }
+
+    .PersonalDivider {
+        margin-left: 20px;
+    }
+
+    .PersonalBodyLeft1 {
+        width: 300px;
+    }
+
+    .PersonalBodyRight {
+        padding: 10px;
+    }
+}

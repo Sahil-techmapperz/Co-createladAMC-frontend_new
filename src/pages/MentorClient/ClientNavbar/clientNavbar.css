@@ -1,0 +1,52 @@
+.iconmenu {
+    color:rgb(0, 132, 255);
+}
+.iconmenu2 {
+    color:red;
+}
+
+/* Navbar.css */
+.clientnavbar {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+  }
+  
+  .navbar-left {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-left h3 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  .navbar-left input {
+    /* Add styles for the search input */
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .clientnavbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .navbar-left {
+        margin-bottom: 10px;
+    }
+  
+    .navbar-left h3 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

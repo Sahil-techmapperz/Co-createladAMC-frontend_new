@@ -1,0 +1,35 @@
+/* Existing styles */
+.sidebar {
+    position: fixed;
+    left: -500px; /* Hide sidebar by default */
+    top: 0;
+    width:100vw;
+    height: 100%;
+    background: #f4f4f4;
+    transition: left 0.3s ease;
+    padding: 20px 10px; /* Add padding inside the sidebar */
+  }
+  
+  .sidebar.open {
+    left: 0; /* Show sidebar */
+  }
+  
+  /* New styles */
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0; /* Add some padding to each list item for better spacing */
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set a default text color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .sidebar ul li a:hover {
+    color: #007bff; /* Change color on hover */
+  }
